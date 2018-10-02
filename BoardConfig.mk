@@ -49,5 +49,8 @@ TARGET_HAS_NO_WLAN_STATS := true
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := false
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # inherit from the proprietary version
 -include vendor/motorola/evert/BoardConfigVendor.mk
