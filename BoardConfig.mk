@@ -25,6 +25,9 @@
 
 PLATFORM_PATH := device/motorola/evert
 
+# Bootctrl
+TARGET_USES_HARDWARE_QCOM_BOOTCTRL := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
 TARGET_NO_BOOTLOADER := true
